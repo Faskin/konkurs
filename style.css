@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #222;
+    animation-name: color;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+
+
+}
+@keyframes color {
+    0% {
+        background-color: whitesmoke;
+    }
+    50% {
+        background-color: #4285f4;
+    }
+    100% {
+    background-color: whitesmoke;
+}
+}
+
+nav a {
+    background-color: whitesmoke; /* Green */
+    border: 1px solid black;
+    color: black;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-top: 2%;
+    border-radius: 5px;
+}
+
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+table:focus {
+    background-color: lightblue;
+
+}
+img {
+    width: 100px;
+    height: 100px;
+}
+
